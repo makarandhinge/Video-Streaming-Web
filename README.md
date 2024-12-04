@@ -36,6 +36,7 @@ This app lets you upload, store, and stream your videos seamlessly. It's built w
   java -version
 ```
 4. Configure the Backend
+
 ```bash
 # Database Configuration
 spring.datasource.url=jdbc:mysql://localhost:3306/<database_name>
