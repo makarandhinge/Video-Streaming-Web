@@ -4,13 +4,19 @@
 
 # Video Streaming Web App
 
-Your video streaming app allows users to upload and save video files along with their metadata. It then processes these videos into HLS format using FFmpeg for smooth streaming. The app also enables retrieval of video metadata and handles errors that may arise during video processing, ensuring seamless operation.
+This app lets you upload, store, and stream your videos seamlessly. It's built with a modern tech stack and designed for easy setup and use.
+
+**Here's what it does:**
+
+* **Upload and Manage:** Easily upload your video files and their details (title, description, etc.).
+* **HLS Streaming:**  Converts your videos into HLS format using FFmpeg for smooth playback on any device.
+* **Efficient Retrieval:** Quickly access and retrieve your stored video metadata.
+* **Robust Error Handling:**  Ensures a reliable experience by gracefully handling any video processing errors.
 
 ## Tech Stack
 
-**Client:** React JS, Tailwind CSS
-
-**Server:** Spring Boot, MySql | Postgresql
+* **Frontend:** React JS, Tailwind CSS (for a sleek and responsive user interface)
+* **Backend:** Spring Boot (for a robust and scalable backend), MySQL/PostgreSQL (for reliable data storage)
 
 ## Run Locally
 
