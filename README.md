@@ -38,16 +38,16 @@ This app lets you upload, store, and stream your videos seamlessly. It's built w
 ```
 4. Configure the Backend:
   - Update application.properties or application.yml in the backend directory
-   ```bash
-  # Database Configuration
-spring.datasource.url=jdbc:mysql://localhost:3306/<database_name>
-spring.datasource.username=<db_username>
-spring.datasource.password=<db_password>
-
-# Directory Configuration
-files.video=<local_directory_for_videos>
-file.video.hsl=<local_directory_for_hsl>
-```
+    ```bash
+      # Database Configuration
+    spring.datasource.url=jdbc:mysql://localhost:3306/<database_name>
+    spring.datasource.username=<db_username>
+    spring.datasource.password=<db_password>
+    
+      # Directory Configuration
+    files.video=<local_directory_for_videos>
+    file.video.hsl=<local_directory_for_hsl>
+    ```
 5. To build and run the Spring Boot application, you need Maven. If Maven is not installed, you can follow the installation instructions from [here](https://github.com/makarandhinge/Installtion-Guideline/blob/main/Maven.md)
 
 - Build the project
