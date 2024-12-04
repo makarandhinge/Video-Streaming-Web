@@ -38,7 +38,7 @@ This app lets you upload, store, and stream your videos seamlessly. It's built w
 ```
 4. Configure the Backend:
   - Update application.properties or application.yml in the backend directory
-```bash
+   ```bash
   # Database Configuration
 spring.datasource.url=jdbc:mysql://localhost:3306/<database_name>
 spring.datasource.username=<db_username>
